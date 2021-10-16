@@ -22,6 +22,6 @@
 
 #echo 'src-git clone https://github.com/wiwizcom/WiFiPortal.git' >>feeds.conf.default
 
-git clone https://github.com/wiwizcom/WiFiPortal.git package/lean/wifidog-wiwiz
+#git clone https://github.com/wiwizcom/WiFiPortal.git package/lean/wifidog-wiwiz
 
 #echo 'src-git clone https://github.com/wiwizcom/WiFiPortal.git' >>feeds.conf.default
