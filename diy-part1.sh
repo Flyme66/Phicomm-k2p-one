@@ -25,3 +25,5 @@
 #git clone https://github.com/wiwizcom/WiFiPortal.git package/lean/wifidog-wiwiz
 
 #echo 'src-git clone https://github.com/wiwizcom/WiFiPortal.git' >>feeds.conf.default
+
+git clone -b 19.07 https://github.com/281677160/openwrt-package package/heiheihio
