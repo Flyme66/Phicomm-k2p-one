@@ -9,7 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build Lienol OpenWrt
+name: Build immortalwrt18.06 OpenWrt
 
 on:
   repository_dispatch:
