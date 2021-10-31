@@ -30,3 +30,5 @@ git clone https://github.com/wiwizcom/WiFiPortal.git package/lean/wifidog-wiwiz
 git clone https://github.com/linkease/nas-packages.git' package/lean/ddnto
 
 git clone https://github.com/fw876/helloworld package/lean/luci-app-ssr-plus
+
+git clone https://github.com/xiaorouji/openwrt-passwall package/lean/luci-app-passwall
