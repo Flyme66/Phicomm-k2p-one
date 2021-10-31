@@ -23,6 +23,10 @@ sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_
 
 sed -i '/set wireless.default_radio0.ssid=Phicomm-k2p_5G/a\ set wireless.default_radio1.ssid=Phicomm-k2p' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-#git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
+git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
 
 git clone https://github.com/wiwizcom/WiFiPortal.git package/lean/wifidog-wiwiz
+
+git clone https://github.com/linkease/nas-packages.git' package/lean/ddnto
+
+git clone https://github.com/fw876/helloworld package/lean/luci-app-ssr-plus
