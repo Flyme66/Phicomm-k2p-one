@@ -26,3 +26,4 @@
 
 #echo 'src-git clone https://github.com/wiwizcom/WiFiPortal.git' >>feeds.conf.default
 
+echo 'src-git clone https://github.com/linkease/nas-packages.git' >>feeds.conf.default
