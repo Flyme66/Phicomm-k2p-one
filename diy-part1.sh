@@ -21,11 +21,3 @@
 #echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 #echo 'src-git clone https://github.com/wiwizcom/WiFiPortal.git' >>feeds.conf.default
-
-#git clone https://github.com/wiwizcom/WiFiPortal.git package/lean/wifidog-wiwiz
-
-#echo 'src-git clone https://github.com/wiwizcom/WiFiPortal.git' >>feeds.conf.default
-
-echo 'src-git clone https://github.com/linkease/nas-packages.git' >>feeds.conf.default
-
-git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
