@@ -32,7 +32,7 @@ sed -i '/set wireless.default_radio0.ssid=Phicomm-k2p_5G/a\ set wireless.default
 
 #git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
 
-git clone https://github.com/wiwizcom/WiFiPortal.git package/lean/wifidog-wiwiz
+#git clone https://github.com/wiwizcom/WiFiPortal.git package/lean/wifidog-wiwiz
 
 #git clone https://github.com/fw876/helloworld package/lean/luci-app-ssr-plus
 
