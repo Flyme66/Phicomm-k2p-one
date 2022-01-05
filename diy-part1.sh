@@ -24,4 +24,3 @@
 
 #sed -i '$a src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' feeds.conf.default
 sed -i '$a src-git WiFiPortal https://github.com/wiwizcom/WiFiPortal.git' feeds.conf.default
-sed -i '$a src-git mtwifi https://github.com/MeIsReallyBa/MT7915_7621-MT_WIFI-Openwrt.git' feeds.conf.default
