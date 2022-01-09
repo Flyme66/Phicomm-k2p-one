@@ -31,10 +31,10 @@ sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_
 sed -i '/set wireless.default_radio0.ssid=Phicomm-k2p_5G/a\ set wireless.default_radio1.ssid=Phicomm-k2p' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 # 2.修改主机名
-sed -i 's/OpenWrt/Phicomm-k2p/g' package/base-files/files/bin/config_generate
+#sed -i 's/OpenWrt/Phicomm-k2p/g' package/base-files/files/bin/config_generate
 
 # 4.修改版本号
-sed -i "s/OpenWrt /dream by $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
+#sed -i "s/OpenWrt /dream by $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
 # 5.修改默认主题
 sed -i ' s/luci-theme-bootstrap/luci-theme-argon/g ' feeds/luci/collections/luci/Makefile
