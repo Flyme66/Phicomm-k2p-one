@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build Lienol-K2P main
+name: Build immport-K2P main
 
 on:
   repository_dispatch:
