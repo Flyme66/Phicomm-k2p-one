@@ -43,6 +43,9 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
 # 6.设置ttyd免登录
 #sed -i 's/\/bin\/login/\/bin\/login -f root/' /etc/config/ttyd
 
+#修改内核版本
+sed -i s/5.15/5.4/g target/linux/ramips/Makefile
+
 # 7.修正连接数（by ベ七秒鱼ベ）
 sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
 
