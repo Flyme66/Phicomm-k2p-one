@@ -17,7 +17,7 @@ sed -i 's/192.168.1.1/192.168.50.1/g' package/base-files/files/bin/config_genera
 #svn co https://github.com/NueXini/NueXini_Packages/trunk/luci-app-adbyby-plus package/lean/luci-app-adbyby-plus
 
 # 删除原来的luci-app-eqos
-rm -rf  feeds/luci/applications/luci-app-eqos
+# rm -rf  feeds/luci/applications/luci-app-eqos
 
 # 删除原来的argon
 rm -rf  feeds/luci/themes/luci-theme-argon
