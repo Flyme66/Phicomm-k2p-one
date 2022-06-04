@@ -82,9 +82,16 @@ jobs:
         ./scripts/feeds install -a -p nas
         ./scripts/feeds install -a -p nas_luci
         
+        #ssr仓库
         git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
+        
+        #passwall依赖
         git clone https://github.com/kenzok8/small.git package/passwall
+        
+        #xiaorouji passwall仓库
         git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+        
+        #wiwiz仓库
         #git clone https://github.com/wiwizcom/WiFiPortal package/wifidog-wiwiz
         
     - name: 安装源码插件源
