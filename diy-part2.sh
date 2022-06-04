@@ -27,18 +27,18 @@ rm -rf  feeds/luci/applications/luci-app-eqos
 rm -rf  feeds/luci/themes/luci-theme-argon
 
 # 添加老竭力的argon主题
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 
 # 修改默认主题为argon
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # 修改密码为空，自定义名称
 ZZZ="package/emortal/default-settings/files/99-default-settings"
 sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
 
-sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=Phicomm-k2p_5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=Phicomm-k2p_5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-sed -i '/set wireless.default_radio0.ssid=Phicomm-k2p_5G/a\ set wireless.default_radio1.ssid=Phicomm-k2p' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i '/set wireless.default_radio0.ssid=Phicomm-k2p_5G/a\ set wireless.default_radio1.ssid=Phicomm-k2p' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 # 2.修改主机名
 #sed -i 's/OpenWrt/Openwrt-K2P/g' package/base-files/files/bin/config_generate
