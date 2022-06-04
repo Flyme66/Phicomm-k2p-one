@@ -16,6 +16,10 @@ sed -i 's/192.168.1.1/192.168.50.1/g' package/base-files/files/bin/config_genera
 #rm -rf  feeds/luci/applications/luci-app-adbyby-plus
 #svn co https://github.com/NueXini/NueXini_Packages/trunk/luci-app-adbyby-plus package/lean/luci-app-adbyby-plus
 
+# 删除原来的ssr
+rm -rf  feeds/luci/applications/luci-app-ssr-plus
+git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
+
 # 删除原来的luci-app-eqos
 rm -rf  feeds/luci/applications/luci-app-eqos
 
@@ -54,7 +58,7 @@ sed -i '/set wireless.default_radio0.ssid=Phicomm-k2p_5G/a\ set wireless.default
 
 #git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
 
-git clone https://github.com/wiwizcom/WiFiPortal.git package/wifidog-wiwiz
+#git clone https://github.com/wiwizcom/WiFiPortal.git package/wifidog-wiwiz
 
 #git clone https://github.com/fw876/helloworld package/lean/luci-app-ssr-plus
 
