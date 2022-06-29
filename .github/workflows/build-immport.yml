@@ -24,8 +24,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
-  DIY_P1_SH: imm-part3.sh
-  DIY_P2_SH: imm-part4.sh
+  DIY_P1_SH: imm-part1.sh
+  DIY_P2_SH: imm-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
