@@ -13,8 +13,8 @@
 sed -i 's/192.168.6.1/192.168.50.1/g' package/base-files/files/bin/config_generate
 
 # 删除原来的adbyby
-rm -rf  feeds/luci/applications/luci-app-adbyby-plus
-svn co https://github.com/NueXini/NueXini_Packages/trunk/luci-app-adbyby-plus package/lean/luci-app-adbyby-plus
+#rm -rf  feeds/luci/applications/luci-app-adbyby-plus
+#svn co https://github.com/NueXini/NueXini_Packages/trunk/luci-app-adbyby-plus package/lean/luci-app-adbyby-plus
 
 # 删除原来的ssr
 #rm -rf  feeds/luci/applications/luci-app-ssr-plus
@@ -33,7 +33,7 @@ svn co https://github.com/NueXini/NueXini_Packages/trunk/luci-app-adbyby-plus pa
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # 修改密码为空，自定义名称
-ZZZ="package/emortal/default-settings/files/99-default-settings"
+ZZZ="package/lean/default-settings/files/zzz-default-settings"
 sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
 
 #sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=Phicomm-k2p_5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
