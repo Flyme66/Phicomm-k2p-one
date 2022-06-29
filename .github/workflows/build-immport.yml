@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build immport-K2P main
+name: Build immport-OpenWrt
 
 on:
   repository_dispatch:
