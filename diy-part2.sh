@@ -10,7 +10,7 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 # Modify default IP
-#sed -i 's/192.168.6.1/192.168.50.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.50.1/g' package/base-files/files/bin/config_generate
 
 # 删除原来的adbyby
 #rm -rf  feeds/luci/applications/luci-app-adbyby-plus
@@ -21,7 +21,7 @@
 #git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
 
 # 删除原来的luci-app-eqos
-#rm -rf  feeds/luci/applications/luci-app-eqos
+rm -rf  feeds/luci/applications/luci-app-eqos
 
 # 删除原来的argon
 #rm -rf  feeds/luci/themes/luci-theme-argon
@@ -58,7 +58,7 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
 
 #git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
 
-#git clone https://github.com/wiwizcom/WiFiPortal.git package/wifidog-wiwiz
+git clone https://github.com/wiwizcom/WiFiPortal.git package/wifidog-wiwiz
 
 #git clone https://github.com/fw876/helloworld package/lean/luci-app-ssr-plus
 
