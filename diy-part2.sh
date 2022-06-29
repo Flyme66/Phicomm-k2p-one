@@ -10,7 +10,7 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 # Modify default IP
-sed -i 's/192.168.6.1/192.168.50.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.6.1/192.168.50.1/g' package/base-files/files/bin/config_generate
 
 # 删除原来的adbyby
 #rm -rf  feeds/luci/applications/luci-app-adbyby-plus
