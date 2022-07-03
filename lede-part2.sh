@@ -24,13 +24,13 @@ svn co https://github.com/NueXini/NueXini_Packages/trunk/luci-app-adbyby-plus pa
 rm -rf  feeds/luci/applications/luci-app-eqos
 
 # 删除原来的argon
-#rm -rf  feeds/luci/themes/luci-theme-argon
+rm -rf  feeds/luci/themes/luci-theme-argon
 
 # 添加老竭力的argon主题
-#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 
 # 修改默认主题为argon
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # 修改密码为空，自定义名称
 ZZZ="package/lean/default-settings/files/zzz-default-settings"
